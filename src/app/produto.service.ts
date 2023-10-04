@@ -27,5 +27,4 @@ const urlDeletar = `${this.url}/${id}`;
 return this._httpClient.delete<Produto[]>(urlDeletar);
 }
 
-
 }
